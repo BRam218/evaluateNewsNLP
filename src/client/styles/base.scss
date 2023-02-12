@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: center / cover no-repeat url(../images/background.png) fixed;
+  font-family: "Goldman", serif;
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: rgba(10, 8, 25, 0.845);
+  padding: 40px 30px;
+  font-size: 1.2rem;
+  font-family: "Goldman", serif;
+}
